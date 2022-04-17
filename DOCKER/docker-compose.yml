@@ -1,0 +1,15 @@
+version: "3"  # optional since v1.27.0
+services:
+  app:
+    build: .
+    volumes:
+      - ./app:/app
+    ports:
+      - 8000:8000
+    image: app:recipe
+    container_name: recipe_container
+    command: python manage.py runserver 0.0.0.0:8000
+
+
+
+   
