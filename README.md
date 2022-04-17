@@ -4,8 +4,22 @@ Recipe App API source code using Docker and Django
 <https://www.markdownguide.org/basic-syntax#code>
 
 #### Notes
+```
+brew update && brew upgrade
 
 git pull origin master --rebase
+
+git remote -v
+
+git pull origin main --rebase
+
+git checkout main
+
+git checkout temp/tng
+
+git merge <BRANCH YOU WISH TO MERGE>
+```
+git pull origin main --rebase
 
 * Replace master branch in Git, entirely, from another branch
 It’s for Newbie (Not recommended in production)
